@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1200px;
+    background-color: rgba(38, 9, 75, 0.556);
+    
+}
+
+
+main {
+    width: 1000px;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: white;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-family: Helvetica, sans-serif;
+    border-radius: 1rem;  
+    box-sizing: border-box;
+  
+   
+}
+
+.imagem {
+  border-radius: 50%; 
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4rem;
+}
+
+.esquerda {
+    width: 410px;
+    height: 100%;
+    background-color: #777;
+    padding: 0 3rem;
+    color: white;  
+    border-radius: 1rem;  
+    box-sizing: border-box;
+    line-height: 30px;
+    
+}
+
+.esquerda h1{
+    text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
+
+.esquerda h2{
+    text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+
+.direita {
+    flex: 1;
+    padding: 4rem 3rem;
+    line-height: 30px;
+}
+
+.direita h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #F2F3F4;
+    background: #777;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    
+    }
+
+
+.direita h4{
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
